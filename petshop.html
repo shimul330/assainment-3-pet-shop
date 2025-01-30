@@ -3,19 +3,106 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- daisyUI and tailwind cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- fonts cdn -->
+     <!-- sora fonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+     <!-- ADLaM Display fonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap" rel="stylesheet">
+     <!-- font awesome cdn -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Pet shop</title>
+    <style>
+        .adlam-display-regular {
+        font-family: "ADLaM Display", serif;
+        }
+        .sora-font {
+        font-family: "Sora", serif;
+        }
+    </style>
 </head>
-<body>
+<body class=" .sora-font">
     <!-- header section -->
     <header>
+      <!-- navbar section -->
+       <nav class="bg-[#FFF9F4] ">
+        <div class="navbar container mx-auto py-8 ">
+            <!-- logo section -->
+            <div class="navbar-start">
+                <img class="" src="c1-assets/logo-header.png" alt="">
+                <h3 class="hidden md:flex text-2xl font-medium ml-2">Browse <span>4</span> Pets</h3>
+            </div>
+              <!-- list item section -->
+        <div class="navbar-center hidden  lg:flex">
+              <ul class="menu  menu-horizontal px-1">
+                <li><a class="text-base font-medium">Find a pet</a></li>
+                <li><a class="text-base font-medium">Breeds</a></li>
+                <li><a class="text-base font-medium">Contact us</a></li>
+            </ul>
+        </div>
+                
+        
+        <div class="navbar-end  ">
+            <!-- batton section -->
+            <div class=" hidden lg:flex">
+                <a href=""> <i class="fa-regular fa-bell text-xl"></i></a>
+                <a href=""><i class="fa-solid fa-magnifying-glass text-xl ml-3 mr-3"></i></a>
+            </div>
+           
+        <div class=" hidden lg:flex">
+            <button class="btn btn-outline btn-warning px-7  ">Login</button>
+            <button class="btn bg-[#FFDC26] ml-2 px-8">Register</button>
+        </div>
+        <div class="lg:hidden">
+           <a href=""> <i class="fa-solid fa-bars text-3xl"></i></a>
+        </div>
 
+    </div>
+        
+        
+            
+           
+    
+    
+    
+    </div>
+</nav>
+                  
+<!-- banner section -->  
+        <div class=" banner-contant container mx-auto mt-32 w-full  md:h-[800px] h-[700px] bg-no-repeat bg-left" style="background-image: url('c1-assets/cat-big.png') ; background-size:95% ;" >
+                    
+            <div class="text-left  ">
+                <!-- banner about  -->
+                <h1 class="text-5xl md:text-7xl font-semibold adlam-display-regular mb-5 text-[#111111]">Pamper Your Pet, <br> Because They Deserve <br> the Bes</h1>
+                <p class="text-lg font-medium mb-5 text-[#111111]">Discover a world of treats, toys, and essentials handpicked for <br> your furry friends. Shop now and make tails wag with joy!</p>
+                <button class="px-6 py-4 bg-[#FFDC26] rounded-lg text-base font-medium">Find a pet</button>
+            </div>
+        </div>
     </header>
+                    
     <!-- main section -->
+            
     <main>
 
     </main>
+
     <!-- footer section -->
+
     <footer>
+            
+            
+                
+             
+            
+                
+
+
 
     </footer>
 </body>
